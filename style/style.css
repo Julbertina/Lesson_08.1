@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+    background: #C4C4C4
+}
+
+.fixed-size-container {
+    width: 1000px;
+    margin: 50px 50px;
+    background: #E6E6E6
+}
+
+.clearfix {
+    clear: both;
+}
+
+.box {
+    font-family: "Roboto-Bold";
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    font-size: 67px;
+    color: white;
+    text-align: center
+}
+
+
+.left {
+    float: left;
+    margin-right: 15px;
+}
+
+.right {
+    float: right;
+    margin-left: 15px;
+}
+
+.centered-element {
+    padding: 63px 0;
+}
+
+/* этот вариант гуглила, хотела тоже флотом сделать */
+/* .centered-element {
+    display: table-cell;
+    vertical-align: middle;
+} */
+
+.small {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+}
+
+.small .centered-element {
+    padding: 37px 0;
+}
